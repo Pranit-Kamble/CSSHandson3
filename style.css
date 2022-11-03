@@ -1,0 +1,170 @@
+body{
+    background-color: gray;
+}
+.c1{
+    width: 500px;
+    height: 120px;
+    font-weight:bolder;
+    font-style: italic;
+    border: 8px solid red;
+    background-color: skyblue;
+    text-align: center;
+    position: relative;
+    margin: 0px 500px;
+    font-size: 30px;
+    color: maroon;
+    text-shadow: 2px 2px 2px darkmagenta;
+    box-shadow: 7px 7px 1px darkmagenta;
+    border-radius: 10px;
+    padding: 15px 0px 10px 0px;
+    }
+    .parent{
+        border: 8px solid green;
+        position: relative;
+        height: 630px;
+   
+           
+
+    }
+    .child1{
+        text-shadow: 2px 2px 2px darkmagenta;
+        box-shadow: 7px 7px 1px darkmagenta;
+        padding: 30px 0px 0px 0px;
+        line-height: 40px;
+        text-align: center;
+        background-color: skyblue;
+        color: black;
+        font-size: 27px;
+        font-weight: bolder;
+        border: red 8px solid;
+        border-radius: 10px;
+        height: 220px;
+        width: 260px;
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+    .child2 {
+        text-shadow: 2px 2px 2px darkmagenta;
+        box-shadow: 7px 7px 1px darkmagenta;
+        text-align: center;
+        background-color: white;
+        color: black;
+        font-size: 20px;
+        font-weight: bolder;
+        border: red 8px solid;
+        border-radius: 10px;
+        height: 260px;
+        width: 260px;
+        position: absolute;
+        top: 0;
+        right: 80px;
+    }
+    .child3{
+        text-shadow: 2px 2px 2px darkmagenta;
+        box-shadow: 7px 7px 1px darkmagenta;
+        padding: 10px 0px 0px 0px;
+        text-align: center;
+        background-color: skyblue;
+        color: black;
+        font-size: 27px;
+        font-weight: bolder;
+        border: red 8px solid;
+        border-radius: 10px;
+        height: 260px;
+        width: 260px;
+        position: absolute;
+        bottom: 40px;
+        left: 0;
+    }
+    .child4{
+        text-shadow: 2px 2px 2px darkmagenta;
+        box-shadow: 7px 7px 1px darkmagenta;
+        text-align: center;
+        background-color: skyblue;
+        color: black;
+        font-weight: bolder;
+        border: red 8px solid;
+        border-radius: 10px;
+        height: 260px;
+        width: 260px;
+       position: absolute;
+       bottom: 40px;
+       right: 80px;
+    }
+    .fixed{
+        
+        box-shadow: 7px 7px 1px darkmagenta;
+        position: fixed;
+        height: 70px;
+        width: 500px;
+        background-color: rgb(233, 233, 51);
+        border: 8px solid red;
+        border-radius: 10px;
+        top: 600px;
+        left: 470px;
+    }
+    .fixed1{
+        font-weight: bolder;
+        font-size:x-large;
+        position: absolute;
+        top: 10px;
+        left: 15px;
+        text-align: center;
+        font-style: italic;
+    }
+    .fixed2{ 
+        font-weight: bolder;
+        font-size:large;
+        position: absolute;
+        top: 15px;
+        right: 15px;
+        text-align: center;
+        font-style: italic;
+    }
+    .parent2{
+        background-color: green;
+        border: rgb(104, 11, 104) solid 8px;
+        display: flex;
+       flex-wrap: wrap;
+       flex-direction: row;
+       justify-content: space-between;
+        height: 650px;
+        width: 820px;
+        
+    }
+    .item1{
+        width: 820px;
+        line-height: 50px;
+        text-align: center;
+        font-size: xx-large;
+        font-weight: bolder;
+    }
+    .item2{
+        margin: 5px;
+        text-align: center;
+        height: 280px;
+        width: 400px;
+        background-color: bisque;
+        top: 60px;
+        left: 5px;
+    }
+    .item3{
+        margin: 5px;
+        text-align: center;
+        height: 280px;
+        width: 400px;
+        background-color: bisque;
+        top: 60px;
+        right: 5px;
+    }
+    .item4 {
+        margin: 0px -7px 0px 5px;
+        text-align: center;
+        height: 280px;
+        width: 840px;
+        background-color: bisque;
+        bottom: 15px;
+        left: 5px;
+    }
+
